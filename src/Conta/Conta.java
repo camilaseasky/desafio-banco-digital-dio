@@ -4,7 +4,7 @@ import Cliente.Cliente;
 import lombok.Data;
 
 @Data
-public class Conta implements IConta {
+public abstract class Conta implements IConta {
 
     protected static int AGENCIA_PADRAO = 1;
 
